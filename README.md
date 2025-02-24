@@ -22,7 +22,6 @@ Minimises the risk of unauthorised access to sensitive data, strengthening netwo
 
 - **Flexible Role Management**  
 Makes it easy to update permissions when employees change roles, saving time and effort. 
-<br>
 
 ## 🛠️ Installation
 ### Step 1: Install Active Directory on Windows Server
@@ -36,7 +35,7 @@ Makes it easy to update permissions when employees change roles, saving time and
   ![Description](https://raw.githubusercontent.com/itstonypham/-RBAC-with-Active-Directory/refs/heads/images/image6.png)
   ![Description](https://raw.githubusercontent.com/itstonypham/-RBAC-with-Active-Directory/refs/heads/images/image3.png)
 
-  ### Step 2: Identify Roles and Permissions Needed
+### Step 2: Identify Roles and Permissions Needed
 - Begin by defining the roles in your company based on job functions—think Sales, Management, IT, and Customer Support.
 - For each role, decide what level of access they’ll need, like:
     - Access to shared folders on the server.
@@ -44,7 +43,7 @@ Makes it easy to update permissions when employees change roles, saving time and
     - Any additional file or system access needed to do their job.
 
   
- ### Step 3: Set Up Security Groups in Active Directory
+### Step 3: Set Up Security Groups in Active Directory
 - In Active Directory Users and Computers, create a security group for each role:
     - Right-click on the Organizational Unit (OU) or domain where you want the group.
     - Select New > Group and name it to match the role (like Sales_Group or Management_Group).
@@ -55,7 +54,7 @@ Makes it easy to update permissions when employees change roles, saving time and
   ![Description](https://raw.githubusercontent.com/itstonypham/-RBAC-with-Active-Directory/refs/heads/images/image2.png)
   ![Description](https://raw.githubusercontent.com/itstonypham/-RBAC-with-Active-Directory/refs/heads/images/image11.png)
 
- ### Step 4: Set Permissions on Folders and Resources
+### Step 4: Set Permissions on Folders and Resources
 - Open File Explorer on the server that holds the shared folders.
 - Right-click on the folder, select Properties, and go to the Security tab.
 - Click Edit to open the permissions options.
